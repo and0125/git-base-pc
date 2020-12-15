@@ -4,4 +4,4 @@ A repository of code snippets, drafts, and sample projects from classes I've tak
 
 ## Projects include:
 
-* [Intro to HTML & CSS - Start Making Money as a Web Developer](https://stackskills.com/courses/enrolled/363660)
+* [Intro to HTML & CSS - Start Making Money as a Web Developer](https://stackskills.com/courses/enrolled/363660) - completed
