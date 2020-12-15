@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+
+<a name="top">
+<h1> Header Tags <hr></h1>
+<h1>This is the largest header available</h1>
+
+<h2> This is the second largest header available </h2>
+
+<h3> This is the third largest header available </h3>
+
+<h4> keeps getting smaller...</h4>
+
+<h5>Even smaller... </h5>
+
+<h6> smaller... </h6>
+
+<h7>smaller...Sike only can go h1 through h6. These are called 'header' tags,but you can write these in the body as well.</h7>
+
+<body>
+<h1><hr>Paragraph Tags </h1>
+
+<p>Its a good idea to put content within the paragraph tags, so that the browser doesn't format this text automatically. </p>
+
+This is text outside the paragraph tag. See how there's not a return character or the spacing? HTML will not recognize spaces outside of the 'p' tags. So use them.
+
+<p> This is the next set of text in a 'p' tag.</p>
+
+<p>This is to demonstrate padding. To get less space between tags, add in a breakline tag instead of a new p tag.</p>
+
+<p>This demonstrates the breakline tag. This is a self-closing tag, and there are only a few tags like this.<br>Look how close this spacing is now.You just keep adding text, then if you want a newline add a breakline. <br> Simple as 1,2,3.  </p>
+
+<p> Another self-closing tag is a horizontal break, which separates content. <hr> See how this is below the line?</p>
+
+<h1><hr>Style Tags</h1>
+
+  <p> This is for bold <strong>See</strong>. <br> This is for italics <em>leaning</em>. <br>
+  This is for underlining <u>emphasis</u>.<br> To strike a line do <strike>this </strike>. <br></p>
+
+<h1><hr>Lists</h1>
+
+<p>This is an example of bullet points, or an unordered list tags.<p>
+
+  <ul>
+  <li>This is a List element.</li>
+  <li> and another</li>
+  <li> and another</li>
+  <li>go as long as ya like.</li>
+  </ul>
+
+<p>To get numerated lists, you use an ordered list.</p>
+
+<ol>
+<li>Same tag for elements</li>
+<li>Different tag for the list</li>
+</ol>
+
+<h1><hr>Adding Images</h1>
+
+<p>We're going to add an image now. </p>
+
+<img src="images/sample-photo-2.jpg" alt="Don't know why it's not displaying." >
+
+<p> To use an image without saving it to your computer, copy the image url to use in your html code.</p>
+
+<img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+
+<p> use unsplash.com to find images you can use for free. There are likely other sites like this as well.<br> To make these images smaller, use the width and height commands. Look at how these are the same size now: <p>
+
+<img src="images/sample-photo-2.jpg" alt="Don't know why it's not displaying." width="200" height="200">
+
+<img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="200" height="200">
+
+<h1><hr>Forms</h1>
+
+<form>
+
+  <p>This code adds a text field. You can type in this form, but you can't submit the information in yet. You can even a value to tell users what to insert.</p>
+
+    <input type="text" value="email" >
+
+<p> Make this a placeholder to make it go away when people start typing. The text area tag allows people to strech the field.</p>
+
+    <input type="text" placeholder="email" name="m">
+
+    <textarea></textarea>
+
+<br>
+<p>Another type of input is radio. This give radial buttons. Unfortunately, these don't automatically grey out when one is selected. to group them, give them the same name attribute.</p>
+
+<input type="radio" name="n">Black
+<input type="radio" name="o"> Red
+
+
+<br>
+
+<p>Another type is a checkbox. This is an example for best time to be contacted: </p>
+
+<input type="checkbox" name="p"> Morning
+<input type="checkbox" name="q"> Afternoon
+<input type="checkbox" name="r"> Evening
+
+<p> Now all we need is a submit button. You can even change the text on the button to say something. </p>
+
+<input type="submit" value="Bitches">
+
+<p>HTML can create these forms, but cannot submit the information. You need PHP or mySQL or some backend to accomplish this. The submit button will allow you to add character codes in the url, andthe information entered to the form will be appended to the url when the submit button is pressed. It's interesting to note, but it does not save the information at all. It saves the information from the "named" elements of the form. So the element with the name 'm' is stored. Each item will need a separate name to store all the info in the url. Even for grouped elements, it's best to keep the names separate so that you can submit the correct selection.</p>
+
+</form>
+
+<h1><hr>Links</h1>
+
+<p> Here's how to format a link. These links will take you to another spot on the same page. This will help readers use navigate the site.</p>
+
+
+<a href="#top">Back To Top </a>
+
+<p> To like to another website, use the same command: </p>
+
+<a href="https://stackskills.com">Where I learned this skill </a>
+
+<p> To do an internal link, you can link to another page on your machine:</p>
+
+<a href="my-first-webpage.html">My first garbage website</a>
+
+<p> Here's a link to the continuation of this content:</p>
+
+<a href="content-contd.html">Starting at Tables.</a>
+</body>
+</head>
+</html>
